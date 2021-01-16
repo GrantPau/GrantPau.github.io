@@ -3463,8 +3463,10 @@ input, select, textarea {
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
-			position: absolute;
+			/*position: absolute; */
 			top: 0;
+            display: inline-block;
+            padding-left: 20px;
 		}
 
 			#header h1 a {
@@ -3472,6 +3474,7 @@ input, select, textarea {
 				display: block;
 				height: inherit;
 				line-height: inherit;
+                font-weight: normal;
 			}
 
 				@media screen and (max-width: 736px) {
@@ -3557,8 +3560,8 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
-				pointer-events: none;
-				opacity: 0;
+				
+                
 			}
 
 /* Banner */
