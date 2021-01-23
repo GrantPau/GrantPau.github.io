@@ -242,7 +242,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 4px #fff;
+		
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -2096,6 +2096,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+        vertical-align: middle;
 	}
 
 		.image img {
@@ -2104,19 +2105,18 @@ input, select, textarea {
 		}
 
 		.image.left {
-			float: left;
-			margin: 0 2em 2em 0;
-			top: 0.25em;
+			margin: 0 0 0 0;
+			top: 0em;
 		}
 
 		.image.right {
-			float: right;
-			margin: 0 0 2em 2em;
-			top: 0.25em;
+			
+			margin: 0 0 0 0;
+			top: 0em;
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 30%;
 		}
 
 			.image.left img, .image.right img {
@@ -2310,7 +2310,7 @@ input, select, textarea {
 		}
 
 			ul.icons li:last-child {
-				padding-right: 0 !important;
+				padding-right: 0 ;
 			}
 
 		ul.icons.major {
@@ -2324,7 +2324,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					ul.icons.major li {
-						padding: 0 1em !important;
+						padding: 0 1em ;
 					}
 
 				}
